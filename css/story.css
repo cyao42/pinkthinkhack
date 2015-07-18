@@ -48,6 +48,13 @@ img.illust {
   margin-left: auto;
 }
 
+
+.mentormock {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .storyborder{
 	font-family: 'Open Sans', sans-serif !important;
 	color: #6f6c6c;
