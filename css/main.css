@@ -1,0 +1,259 @@
+html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #DFD9D9 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.heading{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: #FF0080;
+	margin-left: 120px;
+	.logo{ 
+		margin-right: 50px;
+		display: inline;
+	}
+}
+
+div#navbar { 
+   font-family: 'Open Sans', sans-serif !important;
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: black; 
+   width: 100%; 
+   text-align: center; 
+} 
+
+div#navbar ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#navbar ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#navbar ul a:link, a:visited, a:active{ 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #DFDDDE;
+   margin-left: 30px;
+} 
+
+div#navbar ul a:hover{ 
+/*   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; */
+   margin-left: 30px;
+   color: pink; 
+}
+
+
+#myCarousel{
+	width: 900px !important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+   margin-top: 50px;
+}
+
+
+.title {
+   font-family: 'Open Sans', sans-serif !important;
+  color: #FF0080;
+  text-align: center;
+  font-size: 30px;
+   text-decoration: none; 
+}
+
+.title a {
+   text-decoration: none;    
+}
+
+.level, .desc {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #6f6c6c;
+  text-align: center;
+}
+
+.stories a {
+   text-decoration: none;
+}
+
+.stories{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 700px;
+	img{
+		width: 500px !important;
+		height: 300px !important;
+	}
+	#story1, #story2, #story3{
+		img { 
+			cursor: pointer;
+		}
+		margin-top: 30px;
+		.title{
+			font-size: 40px;
+			font-weight: bolder;
+		}
+		.desc{
+			font-size: 25px;
+		}
+	}
+}
+
+
+.profname {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 50px;
+  color: #FF0080;
+  text-align: center;
+}
+
+
+.profpic{
+   margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.profupdate {
+   font-family: 'Open Sans', sans-serif !important;
+   color: #6f6c6c;
+   margin: 10px; 
+   padding: 2em 0 2em 0; 
+   background: #F5BED9; 
+   width: 100%; 
+   font-size: 40px;
+   font-weight: 20;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;  
+   max-height: 400px;
+   max-width: 1500px;
+}
+
+.my_profile{
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	.people_header{
+	    width:80%;
+	    padding-bottom: 5%;
+	    background-color: grey;
+	    padding-top:6%;
+	    border-bottom: 1px dotted #ccc;
+	    font-size: 30px;
+	}
+	.people_header img {
+	    display: inline-block;
+	    vertical-align: top;
+	}
+	.people_header span {
+	    display: inline-block;
+	    margin-left:1px;
+		padding: 3px 10px;
+		margin: 0px 8px;
+		display: inline-block;
+	    font-size: 30px;
+	    background-color: @very-very-light-grey;
+	}
+	.desc{
+		pre{
+			font-family: Arial !important;
+			font-size: 25px !important;
+			width: 700px;
+		}
+	    .img_edit{
+	        display: none;
+	        right: -11px;
+	        width: 12px;
+	        position: relative;
+	        opacity: 0.3;
+	        cursor: pointer;
+	        &:hover{
+	            opacity: 1;
+	        }
+	    }
+	    &:hover .img_edit{
+	        display: inline-block;
+	    }
+	    .comment_input_wrapper{
+	        .comment_input(~".edit_input");
+	        .textarea_container{
+	        .comment_input(~"textarea");
+	        display: inline-block;
+	        width: 210px;
+	        }
+	        .textarea_wrapper{ 
+	            .edit_input{
+	                font-size: 25px;
+	            }
+	        }
+	    }
+	}
+
+	}
+	
+}
+
+
+.badges{
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+}
+
+.badges_title{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      font-weight: bolder;
+   }
+
+.line-separator{
+   height:1px;
+   background:#717171;
+   border-bottom:1px solid #313030;
+}
+
+.friends {
+   font-family: 'Open Sans', sans-serif;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+      font-size: 35px;
+      font-weight: bolder;
+}

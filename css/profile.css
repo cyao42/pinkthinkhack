@@ -1,0 +1,72 @@
+.my_profile{
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	.people_header {
+	    width:100%;
+	    padding-bottom: 5%;
+	    background-color: grey;
+	    padding-top:6%;
+	    border-bottom: 1px dotted #ccc;
+	}
+	.people_header img {
+	    width:40%;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+	.people_header span {
+	    display: inline-block;
+	    margin-left:1px;
+		padding: 3px 10px;
+		margin: 0px 8px;
+		display: inline-block;
+	    font-size: 30px;
+	    background-color: @very-very-light-grey;
+	}
+	.desc{
+		pre{
+			font-family: Arial !important;
+			font-size: 25px !important;
+		}
+	    .img_edit{
+	        display: none;
+	        right: -11px;
+	        width: 12px;
+	        position: relative;
+	        opacity: 0.3;
+	        cursor: pointer;
+	        &:hover{
+	            opacity: 1;
+	        }
+	    }
+	    &:hover .img_edit{
+	        display: inline-block;
+	    }
+	    .comment_input_wrapper{
+	        .comment_input(~".edit_input");
+	        .textarea_container{
+	        .comment_input(~"textarea");
+	        display: inline-block;
+	        width: 210px;
+	        }
+	        .textarea_wrapper{ 
+	            .edit_input{
+	                font-size: 25px;
+	            }
+	        }
+	    }
+	}
+	.badges{
+		display: inline-block;
+		img{
+			display: table;
+		}
+	}
+	.badges.title{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: bolder;
+	}
+}
