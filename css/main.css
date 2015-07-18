@@ -3,15 +3,67 @@ html
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: gray;
+}
+body
+{
+	background-color: #DFD9D9 !important;
 }
 
-.title{
-	font-family: Arial;
+.heading{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 50px;
 	color: #FF0080;
+	margin-left: 120px;
+	.logo{ 
+		margin-right: 50px;
+		display: inline;
+	}
 }
 
+div#navbar { 
+   font-family: 'Open Sans', sans-serif !important;
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: black; 
+   width: 100%; 
+   text-align: center; 
+} 
+
+div#navbar ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#navbar ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#navbar ul a:link, a:visited, a:active{ 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #DFDDDE;
+   margin-left: 30px;
+} 
+
+div#navbar ul a:hover{ 
+/*   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; */
+   margin-left: 30px;
+   color: pink; 
+}
+
+
 #myCarousel{
-	width: 700px !important;
+	width: 900px !important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
