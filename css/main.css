@@ -81,7 +81,30 @@ div#navbar ul a:hover{
 	margin-right: auto;
 }
 
-#stories{
+
+.title {
+   font-family: 'Open Sans', sans-serif !important;
+  color: #FF0080;
+  text-align: center;
+  font-size: 30px;
+   text-decoration: none; 
+}
+
+.title a {
+   text-decoration: none;    
+}
+
+.level, .desc {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #6f6c6c;
+  text-align: center;
+}
+
+.stories a {
+   text-decoration: none;
+}
+
+.stories{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
