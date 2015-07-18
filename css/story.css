@@ -1,0 +1,132 @@
+html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #DFD9D9 !important;
+}
+
+
+h1{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #FF0080;
+}
+
+#progbar{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #6f6c6c;
+	font-size: 20;
+}
+
+img.illust{
+    width:100%; /* you can use % */
+    height: auto;
+}
+
+.storyborder{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #6f6c6c;
+   margin: 10px; 
+   padding: .3em 0 .3em 0; 
+   background: #cfdcec; 
+   width: 100%; 
+   font-size: 30;
+   font-weight: 20;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;	
+   max-height: 400px;
+   max-width: 600px;
+}
+
+div#buttons { 
+   font-family: 'Open Sans', sans-serif !important;
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: ; 
+   width: 100%; 
+   text-align: center;
+   display: inline-block; 
+
+} 
+
+
+.centered {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*	width:50%;
+	height:auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;*/
+  /* bring your own prefixes */
+  /*transform: translate(-50%, -10%);*/
+}
+/*
+.round-button {
+	width:8%;
+}
+
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    float:left;
+    background: #FFCCE6; 
+    box-shadow: 0 0 3px #E6B8CF;
+}
+.round-button-circle:hover {
+	background:#FF0080;
+}
+.round-button a {
+    display:block;
+	float:right;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#66525C;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}*/
+
+#code-button-link:hover {
+	background:#FF0080;
+	color:#66525C;
+}
+
+#code-button-link {
+  width: 15%;
+  height: 15%;
+  background-color: #FFCCE6;
+  moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #cfdcec;
+  float: left;
+    box-shadow: 0 0 3px #E6B8CF;
+  padding: 5px;
+     display: inline-block;
+}
+
+#code-button-link a {
+	text-align:center;
+	color:#66525C;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+       display: inline-block;
+}
