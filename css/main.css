@@ -129,6 +129,41 @@ div#navbar ul a:hover{
 	}
 }
 
+
+.profname {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 50px;
+  color: #FF0080;
+  text-align: center;
+}
+
+
+.profpic{
+   margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.profupdate {
+   font-family: 'Open Sans', sans-serif !important;
+   color: #6f6c6c;
+   margin: 10px; 
+   padding: 2em 0 2em 0; 
+   background: #F5BED9; 
+   width: 100%; 
+   font-size: 40px;
+   font-weight: 20;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;  
+   max-height: 400px;
+   max-width: 1500px;
+}
+
 .my_profile{
 	width: 80%;
 	display: block;
@@ -190,16 +225,35 @@ div#navbar ul a:hover{
 	        }
 	    }
 	}
-	.badges{
-		display: inline-block;
-		margin-bottom: -250px;
-		img{
-			display: table;
-		}
+
 	}
-	.badges.title{
-		font-family: 'Open Sans', sans-serif;
-		font-size: 40px;
-		font-weight: bolder;
-	}
+	
+}
+
+
+.badges{
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+}
+
+.badges_title{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      font-weight: bolder;
+   }
+
+.line-separator{
+   height:1px;
+   background:#717171;
+   border-bottom:1px solid #313030;
+}
+
+.friends {
+   font-family: 'Open Sans', sans-serif;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+      font-size: 35px;
+      font-weight: bolder;
 }
